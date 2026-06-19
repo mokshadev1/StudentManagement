@@ -11,13 +11,18 @@ public class main {
         String p1 = "1234";
         String user2 = "Deepanshu321";
         String p2 = "dl@321";
+        String user3 =  "Moksha123";
+        String p3= "md@123";
 
         if(userName.equals(user1)&& password.equals(p1)){
             System.out.println("Welcome " + userName +" Login Successful");}
             else if (userName.equals(user2) && password.equals(p2)){
                 System.out.println("Welcome " + user2 +" Login Successful");}
-            else {
-                System.out.println("Invalid Details Password or Username Incorrect ");
+                else if (userName.equals(user3) && password.equals(p3)){
+                    System.out.println("Welcome " + user3 + " Login Successful");
+                }
+                else {
+                    System.out.println("Invalid Details Password or Username Incorrect ");
         } 
 
     }
